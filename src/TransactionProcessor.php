@@ -6,7 +6,7 @@ namespace App;
 class TransactionProcessor
 {
     public function __construct (
-        private string $filePath
+        private readonly string $filePath
     ) {
     }
 
